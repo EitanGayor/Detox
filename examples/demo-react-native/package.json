@@ -14,11 +14,14 @@
     "test:android-explicit-require": "detox test e2eExplicitRequire -c android.emu.release -l verbose --runner-config e2eExplicitRequire/mocha.opts",
     "e2e:ios": "npm run build:ios && npm run test:ios",
     "e2e:android-debug": "npm run build:android-debug && npm run test:android-debug",
-    "e2e:android-release": "npm run build:android-release && npm run test:android-release"
+    "e2e:android-release": "npm run build:android-release && npm run test:android-release",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "react": "16.8.x",
-    "react-native": "0.60.x"
+    "react-native": "0.60.x",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "detox": "^14.7.1",
@@ -73,5 +76,6 @@
         }
       }
     }
-  }
+  },
+  "snyk": true
 }
