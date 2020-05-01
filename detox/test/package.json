@@ -22,12 +22,15 @@
     "build:android-debug": "detox build --configuration android.emu.debug",
     "clean:android": "pushd android && ./gradlew clean && popd",
     "verify-artifacts:ios": "jest ./scripts/verify_artifacts_are_not_missing.ios.test.js --testEnvironment node",
-    "verify-artifacts:android": "jest ./scripts/verify_artifacts_are_not_missing.android.test.js --testEnvironment node"
+    "verify-artifacts:android": "jest ./scripts/verify_artifacts_are_not_missing.android.test.js --testEnvironment node",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "moment": "^2.24.0",
     "react": "16.8.x",
-    "react-native": "0.60.x"
+    "react-native": "0.60.x",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -106,5 +109,6 @@
     "ancestorSeparator": " > ",
     "classNameTemplate": "E2E Results.{classname}",
     "titleTemplate": "{classname} > {title}"
-  }
+  },
+  "snyk": true
 }
