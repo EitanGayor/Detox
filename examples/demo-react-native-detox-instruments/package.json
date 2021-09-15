@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {},
   "devDependencies": {
-    "detox": "^14.7.1",
-    "mocha": "6.x.x"
+    "detox": "^17.8.4",
+    "mocha": "8.3.0"
   },
   "detox": {
     "test-runner": "mocha",
