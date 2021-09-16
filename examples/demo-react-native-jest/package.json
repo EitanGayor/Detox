@@ -13,9 +13,9 @@
     "test:jest-circus:android-release-ci": "detox test --configuration android.emu.release -l verbose -o e2e/config-circus.json --workers 2"
   },
   "devDependencies": {
-    "detox": "^14.7.1",
-    "jest": "24.8.x",
-    "jest-circus": "24.8.x",
+    "detox": "^17.8.4",
+    "jest": "26.0.0",
+    "jest-circus": "25.0.0",
     "sanitize-filename": "^1.6.1"
   },
   "detox": {
