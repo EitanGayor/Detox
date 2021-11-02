@@ -5,7 +5,7 @@
   "scripts": {},
   "devDependencies": {
     "detox": "^14.7.1",
-    "mocha": "6.x.x"
+    "mocha": "8.2.0"
   },
   "detox": {
     "test-runner": "mocha",
