@@ -8,7 +8,9 @@
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
-    "gatherDocs": "node ./gatherDocs"
+    "gatherDocs": "node ./gatherDocs",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "docusaurus": "^1.1.5"
@@ -17,6 +19,8 @@
     "fs-extra": "^5.0.0",
     "highlight.js": "^9.14.2",
     "nodegit": "^0.21.1",
-    "semver": "^5.5.0"
-  }
+    "semver": "^5.5.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
