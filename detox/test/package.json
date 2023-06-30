@@ -27,13 +27,13 @@
   "dependencies": {
     "moment": "^2.24.0",
     "react": "16.8.x",
-    "react-native": "0.60.x"
+    "react-native": "0.62.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "detox": "^14.7.1",
     "express": "^4.15.3",
-    "jest": "24.9.x",
+    "jest": "26.0.0",
     "jest-circus": "24.9.x",
     "jest-junit": "^8.0.0",
     "lodash": "^4.14.1",
