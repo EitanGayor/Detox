@@ -31,10 +31,10 @@
   "devDependencies": {
     "eslint": "^4.11.0",
     "eslint-plugin-node": "^6.0.1",
-    "jest": "24.6.x",
+    "jest": "26.0.0",
     "mockdate": "^2.0.1",
     "prettier": "1.7.0",
-    "react-native": "0.60.x",
+    "react-native": "0.61.0",
     "wtfnode": "^0.8.0"
   },
   "dependencies": {
