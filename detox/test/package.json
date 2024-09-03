@@ -27,7 +27,7 @@
   "dependencies": {
     "moment": "^2.24.0",
     "react": "16.8.x",
-    "react-native": "0.60.x"
+    "react-native": "0.69.12"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
