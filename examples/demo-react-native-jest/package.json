@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "detox": "^14.7.1",
-    "jest": "24.8.x",
-    "jest-circus": "24.8.x",
+    "jest": "27.0.2",
+    "jest-circus": "25.1.0",
     "sanitize-filename": "^1.6.1"
   },
   "detox": {
